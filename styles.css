@@ -15,7 +15,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #00A6ED;
     cursor: pointer;
 }
 
@@ -26,6 +25,16 @@ li {
 
 h3 {
     font-size: 1.5em;
+}
+
+button {
+    background-color: rgba(0,0,0,0.70);
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+button:hover {
+    background-color: #00A6ED;
 }
 
 .maintext {
@@ -266,6 +275,16 @@ ol li {
     background-color: #a9a9a9;
     color: whitesmoke;
     cursor: pointer;
+}
+
+.holding-card {
+    text-align: center;
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.holding-card > img {
+    width: 40px;
 }
 
 /* Media Queries */
